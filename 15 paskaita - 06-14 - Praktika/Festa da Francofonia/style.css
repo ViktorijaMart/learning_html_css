@@ -1,0 +1,212 @@
+img {
+  width: 100%;
+}
+
+/* ===================== Header ============================== */
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.logo {
+  width: 50vw;
+  padding: 30px 25px 0;
+}
+
+/* ===================== Dropdown ============================== */
+.dropbtn {
+  background-color: transparent;
+  color: blue;
+  padding: 20px 30px 5px 30px;
+  font-size: 35px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: blue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*========================= Banner ==============================*/
+
+.banner {
+  width: 100vw;
+  height: 50vh;
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 40px;
+  margin-top: 50px;
+  color: white;
+}
+
+h6 {
+  margin: 0;
+  padding-top: 100px;
+  font-size: 25px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 70px;
+}
+
+/*================================ Main info ===========================*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 200px 30px;
+}
+
+.info1 div:first-child {
+  width: 120px;
+  padding-bottom: 30px;
+}
+
+.info1 div:last-child {
+  width: 170px;
+  padding-bottom: 50px;
+}
+
+.info2 {
+  width: 200px;
+}
+
+/*============================== More info ===========================*/
+
+.more-info {
+  margin: 30px;
+  padding-top: 30px;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo2 {
+  width: 50vw;
+}
+
+p,
+.socials {
+  font-size: 30px;
+  text-align: center;
+}
+
+.socials {
+  padding-top: 40px;
+}
+
+/*========================== Footer ================================*/
+
+footer {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 15px;
+  text-align: start;
+}
+
+.fiesta {
+  margin-bottom: 10px;
+}
+
+.politica p {
+  margin-top: 10px;
+}
+
+.politica-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer button {
+  width: 70px;
+  height: 70px;
+}
+
+/*========================= Media queries ============================*/
+
+@media screen and (min-width: 764px) {
+  header {
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: max-content;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: transparent;
+  }
+
+  .dropdown-content a {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .info {
+    flex-direction: row;
+  }
+
+  .info3 {
+    width: 50vw;
+  }
+
+  .logo2 {
+    width: 150px;
+  }
+
+  .more-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .more-info p {
+    text-align: start;
+  }
+}

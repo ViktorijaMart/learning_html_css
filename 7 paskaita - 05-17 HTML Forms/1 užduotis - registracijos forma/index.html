@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registracijos forma</title>
+  </head>
+  <body>
+    <h1>Create an Account</h1>
+    <form action="/index.html" method="post">
+      <label for="email">Email:</label>
+      <input required type="email" id="email" autofocus />
+      <label for="password">Password:</label>
+      <input
+        required
+        type="password"
+        name="password"
+        id="password"
+        minlength="8"
+        maxlength="22"
+      />
+      <label for="age">Age:</label>
+      <select required name="age" id="age">
+        <option value="Select Age">Select Age</option>
+        <option value="1">1</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+      <label for="text">Tell us a little about yourself:</label>
+      <textarea
+        name="text"
+        id="text"
+        cols="50"
+        rows="5"
+        maxlength="200"
+      ></textarea>
+      <div>
+        <input required type="checkbox" id="check" />
+        <label for="check"
+          >I agree to the <a href="">terms of service</a></label
+        >
+      </div>
+      <button>Sign up</button>
+    </form>
+  </body>
+</html>

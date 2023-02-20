@@ -1,0 +1,186 @@
+header {
+  background-color: #541554;
+  height: 90vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.nav-div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 180px;
+}
+
+nav a {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+nav a:hover,
+.dropbtn:hover {
+  text-decoration: underline;
+}
+
+.dropbtn {
+  background-color: #541554;
+  color: white;
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#button-sales {
+  background-color: #541554;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-variant: small-caps;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+#button-sales:hover {
+  border-width: 3px;
+}
+
+#button-free {
+  background-color: white;
+  border-radius: 5px;
+  color: #541554;
+  font-variant: small-caps;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+#button-free:hover {
+  border: 3px solid #541554;
+}
+
+header section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1264a3;
+  border-radius: 40px;
+  color: white;
+  font-size: 25px;
+  margin: 40px 120px;
+  padding: 0px 25px;
+}
+
+header section:nth-child(2) a {
+  color: white;
+}
+
+header section:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+
+header section:last-child div {
+  width: 50%;
+}
+
+header section:last-child h1 {
+  color: white;
+  font-size: 90px;
+}
+
+header section:last-child span {
+  color: rgb(195, 143, 64);
+}
+
+header section:last-child p {
+  color: white;
+  font-size: 25px;
+}
+
+#button-email {
+  background-color: white;
+  color: #541554;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: small-caps;
+  border-radius: 5px;
+  width: 400px;
+  height: 80px;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#button-google {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  background-color: #0f70f0;
+  border-radius: 5px;
+  padding: 0px;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-variant: small-caps;
+  margin-left: 20px;
+}
+
+#google-logo {
+  width: 70px;
+  margin: 2px;
+}
+
+.slack-phone {
+  max-width: 50%;
+}

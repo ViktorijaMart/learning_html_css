@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 1px solid;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  flex-direction: column;
+}
+
+.skiltis {
+  width: 33%;
+  border: 1px solid;
+}
+
+.cat1 {
+  width: 100%;
+}
+
+.background-image {
+  background-image: url(./cat1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.display-flex {
+  display: flex;
+}
